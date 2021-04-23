@@ -15,7 +15,7 @@ footer {
 
 header,
 footer {
-    background-color: #007ea7;
+    background-color: #31572c;
     color: whitesmoke;
     border-radius: 10px;
     padding: 1rem;
@@ -28,6 +28,14 @@ header img {
     height: auto;
 }
 
-a {
-    color: black;
+main a {
+    color: #006af5;
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+footer p {
+    margin: 0;
 }
