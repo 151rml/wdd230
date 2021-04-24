@@ -15,8 +15,8 @@ footer {
 
 header,
 footer {
-    background-color: #31572c;
-    color: whitesmoke;
+    background-color: #04773b;
+    color: #fbfef9;
     border-radius: 10px;
     padding: 1rem;
     text-align: center;
@@ -29,11 +29,11 @@ header img {
 }
 
 main a {
-    color: #004094;
+    color: blue;
 }
 
 footer a {
-    color: whitesmoke;
+    color: #fbfef9;
 }
 
 footer p {
