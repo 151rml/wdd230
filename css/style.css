@@ -46,6 +46,11 @@ footer p {
     font-size: 12px;
 }
 
+h1 {
+    font-size: 3em;
+    margin: auto;
+}
+
 h2 {
     border-bottom: silver solid 2.5px;
     padding-bottom: .5rem;
