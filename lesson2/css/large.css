@@ -2,11 +2,9 @@ html {
     background-color: whitesmoke;
 }
 
-header,
-main,
-footer {
+.content {
     max-width: 1280px;
-    margin: 2.5rem auto;
+    margin: 0 auto;
 }
 
 header,
@@ -21,6 +19,7 @@ footer {
 h1,
 h2 {
     font-family: 'Tillana', cursive;
+    margin: 0 auto;
 }
 
 h3 {
@@ -36,16 +35,21 @@ p {
     line-height: 1.5;
 }
 
+main a {
+    color: blue;
+}
+
 main,
 footer {
     font-family: 'Montserrat', sans-serif;
 }
 
 main {
+    margin: 1em 0;
     display: grid;
-    grid-template-columns: 3, 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    column-gap: 10px;
+    gap: 1em;
 }
 
 .ex_one,
@@ -56,23 +60,9 @@ main {
     padding: 20px
 }
 
-.ex_one {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.ex_two {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.ex_three {
-    grid-column: 3;
-    grid-row: 1;
-}
-
 img {
     display: block;
+    width: 90%;
     margin: 20px auto;
 }
 
