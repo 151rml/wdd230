@@ -29,10 +29,12 @@ h3 {
     padding: 10px;
 }
 
-p,
 h4 {
-    line-height: 1.5;
     margin-bottom: 0px;
+}
+
+p {
+    line-height: 1.5;
 }
 
 main a {
