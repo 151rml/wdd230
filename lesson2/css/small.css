@@ -24,15 +24,15 @@ h2 {
 h3 {
     background-color: #00ffff;
     color: #000080;
-    font-weight: bold;
     text-align: center;
     margin: 0;
     padding: 10px;
 }
 
-p {
-    margin-bottom: 0;
+p,
+h4 {
     line-height: 1.5;
+    margin-bottom: 0px;
 }
 
 main a {
