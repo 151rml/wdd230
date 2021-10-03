@@ -15,11 +15,15 @@ header,
 footer {
     background-color: #ffc106;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 main {
     background-color: white;
+}
+
+ul {
+    margin-top: 0;
 }
 
 div {
