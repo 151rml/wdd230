@@ -6,7 +6,6 @@ html {
 header,
 main,
 footer {
-    background-color: whitesmoke;
     padding: 1rem;
     max-width: 900px;
     margin: 2.5rem auto;
@@ -14,7 +13,13 @@ footer {
 
 header,
 footer {
+    background-color: #ffc106;
     text-align: center;
+    color: black;
+}
+
+main {
+    background-color: white;
 }
 
 div {
@@ -55,10 +60,6 @@ h3 {
 
 p {
     margin-top: 0;
-}
-
-footer a {
-    color: #ffc106;
 }
 
 footer p {
