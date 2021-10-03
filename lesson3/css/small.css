@@ -1,6 +1,7 @@
 html {
     background: url("../images/weather-symbols.png");
     background-color: #090f60;
+    font-size: 0.90rem;
 }
 
 header,
@@ -9,7 +10,6 @@ footer {
     padding: 1rem;
     max-width: 900px;
     margin: 2.5rem auto;
-    font-size: 0.90rem;
 }
 
 header,
@@ -66,9 +66,21 @@ h3 {
 }
 
 p,
-li {
+p ul li {
     margin-top: 0;
     font-family: "Arvo", Georgia, 'Times New Roman', Times, serif;
+}
+
+table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: "Arvo", Georgia, 'Times New Roman', Times, serif;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
 }
 
 footer,
