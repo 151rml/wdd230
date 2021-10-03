@@ -66,7 +66,7 @@ h3 {
 }
 
 p,
-p ul li {
+li {
     margin-top: 0;
     font-family: "Arvo", Georgia, 'Times New Roman', Times, serif;
 }
@@ -84,7 +84,7 @@ td {
 }
 
 footer,
-nav ul {
+nav li {
     font-family: "Maven Pro", Arial, Helvetica, sans-serif;
 }
 
