@@ -1,7 +1,7 @@
 html {
     background: url("../images/weather-symbols.png");
     background-color: #090f60;
-    font-size: 0.90rem;
+    font-size: 0.80rem;
 }
 
 header,
@@ -16,7 +16,7 @@ header,
 footer {
     background-color: #ffc106;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 main {
@@ -75,12 +75,19 @@ table,
 td {
     border: 1px solid black;
     border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
     font-family: "Arvo", Georgia, 'Times New Roman', Times, serif;
 }
 
-td {
-    padding: 5px;
-    text-align: center;
+#blue {
+    color: white;
+    background-color: #090f60;
+}
+
+#yellow {
+    color: white;
+    background-color: #ffc106;
 }
 
 footer,
