@@ -2,14 +2,8 @@ html {
     background: url("../images/weather-symbols.png");
     background-color: #090f60;
     font-size: 0.80rem;
-}
-
-header,
-main,
-footer {
-    padding: 1rem;
     max-width: 900px;
-    margin: 2.5rem auto;
+    margin: auto;
 }
 
 header,
@@ -19,22 +13,12 @@ footer {
     color: black;
 }
 
-main {
+body {
     background-color: white;
 }
 
-ul {
-    margin-top: 0;
-}
-
-div,
-li {
-    display: block;
-    line-height: 1.5;
-}
-
 nav {
-    background-color: #090F60;
+    background-color: #090f60;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -56,47 +40,4 @@ nav a {
 nav a:hover {
     background-color: #ffc106;
     color: black;
-}
-
-h1,
-h2,
-h3 {
-    margin: 0;
-    font-family: "Maven Pro", Arial, Helvetica, sans-serif;
-}
-
-p,
-li {
-    margin-top: 0;
-    font-family: "Arvo", Georgia, 'Times New Roman', Times, serif;
-}
-
-table,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    padding: 10px;
-    font-family: "Arvo", Georgia, 'Times New Roman', Times, serif;
-}
-
-#blue {
-    color: white;
-    background-color: #090f60;
-}
-
-#yellow {
-    color: white;
-    background-color: #ffc106;
-}
-
-footer,
-nav li {
-    font-family: "Maven Pro", Arial, Helvetica, sans-serif;
-}
-
-footer p {
-    margin-top: 5px;
-    margin-bottom: 0;
-    font-size: 12px;
 }
