@@ -3,7 +3,6 @@ html {
     background-color: #090f60;
     font-size: 0.80rem;
     max-width: 900px;
-    margin: auto;
 }
 
 header,
@@ -11,6 +10,12 @@ footer {
     background-color: #ffc106;
     text-align: center;
     color: black;
+}
+
+header,
+body,
+footer {
+    margin: auto;
 }
 
 body {
