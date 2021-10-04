@@ -1,50 +1,78 @@
-html {
-    background: url("../images/weather-symbols.png");
-    background-color: #090f60;
-    font-size: 0.80rem;
-    max-width: 900px;
-    margin: 2.5rem auto;
-}
-
-header,
-footer {
-    background-color: #ffc106;
-    text-align: center;
-    color: black;
-}
-
-header,
-main,
-footer {
-    padding: 1rem;
-    margin: 2.5rem auto;
-}
-
-main {
-    background-color: white;
-}
-
-nav {
-    background-color: #090f60;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 0.5rem;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: #ffc106;
-    color: black;
-}
+    html {
+        background: url("../images/weather-symbols.png");
+        background-color: #090f60;
+        font-size: 1rem;
+        max-width: 900px;
+        margin: auto;
+    }
+    
+    header,
+    footer {
+        background-color: #ffc106;
+        text-align: center;
+        color: black;
+    }
+    
+    header,
+    main,
+    footer {
+        padding: 1rem;
+        margin: 2.5rem auto;
+    }
+    
+    header,
+    footer,
+    h1,
+    h2,
+    h3 {
+        font-family: "Maven Pro", Arial, Helvetica, sans-serif;
+    }
+    
+    p,
+    ul,
+    table {
+        font-family: "Arvo", Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    main {
+        background-color: white;
+        line-height: 1.5;
+    }
+    
+    nav {
+        background-color: #090f60;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0.5rem;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        background-color: #ffc106;
+        color: black;
+    }
+    
+    table,
+    td {
+        width: 70%;
+        table-layout: auto;
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    footer p {
+        font-size: 12px;
+    }
