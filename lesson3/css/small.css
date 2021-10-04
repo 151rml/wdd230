@@ -3,6 +3,7 @@ html {
     background-color: #090f60;
     font-size: 0.80rem;
     max-width: 900px;
+    margin: 2.5rem auto;
 }
 
 header,
@@ -13,12 +14,13 @@ footer {
 }
 
 header,
-body,
+main,
 footer {
-    margin: auto;
+    padding: 1rem;
+    margin: 2.5rem auto;
 }
 
-body {
+main {
     background-color: white;
 }
 
