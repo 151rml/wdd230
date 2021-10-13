@@ -4,7 +4,7 @@ html {
 }
 
 header {
-    display: flex;
+  display: flex;
 }
 header,
 footer {
@@ -13,14 +13,13 @@ footer {
 }
 
 header img {
-    width: 80px;
-    float: left;
+  width: 80px;
+  float: left;
 }
 body {
   background-color: white;
   max-width: 900px;
   margin: auto;
-
 }
 nav button {
   margin: 0.2rem 2%;
@@ -30,8 +29,9 @@ nav button {
   color: white;
 }
 
-nav, main {
-    padding: 10px;
+nav,
+main {
+  padding: 10px;
 }
 nav {
   background-color: #090f60;
