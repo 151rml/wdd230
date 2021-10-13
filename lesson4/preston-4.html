@@ -18,21 +18,33 @@
 
 <body>
     <header>
-        <h1>Weather 4 You</h1>
-        <h2>site tagline</h2>
+        <picture>
+            <img src="../lesson3/images/weather_icon1.png" alt="weather site icon">
+        </picture>
+        <section>
+            <h1>Weather 4 You</h1>
+            <p>site tagline</p>
+        </section>
+        <section>
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+        </section>
     </header>
-    <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li>Home</li>
-            <li>Preston</li>
-            <li>Soda Springs</li>
-            <li>Fish Haven</li>
-            <li>Storm Center</li>
-            <li>Gallery</li>
-        </ul>
-    </nav>
-    <main></main>
+
+    <main>
+        <h2>Preston Idaho</h2>
+        <h3>Weather Summary</h3>
+        <p>Suspendisse ante non hac fusce iaculis dui consequat natoque sagittis. Enim elementum integer mollis mollis ipsum auctor quisque magna molestie. Elit et id parturient est nisl nullam blandit risus dictum.</p>
+    </main>
     <footer></footer>
     <script src="js/index.js"></script>
 
