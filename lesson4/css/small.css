@@ -6,14 +6,41 @@ html {
 header,
 footer {
   background-color: #ffc106;
+  padding: 10px;
 }
-
+header,
+main,
+footer {
+  padding: 1rem;
+  margin: 2.5rem auto;
+}
 main {
-    background-color: white;
-  max-width: 900px;
+  display: block;
+  background-color: white;
+  max-width: 1260px;
+  margin: auto;
+  padding: 20px;
 }
 
-nav {background-color: #090f60;}
+header,
+footer,
+h1,
+h2,
+h3 {
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: 'Arvo', Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+  background-color: #090f60;
+}
+
+nav button {
+  color: #white;
+}
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -21,28 +48,28 @@ nav ul {
 }
 
 nav ul li a {
-    display: block;
-    padding: .8rem 2%;
-    text-decoration: none;
-    color: rgba(255, 255, 255, .8);
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+  display: block;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  color: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 nav ul li.active a {
-    background-color: #ffc106;
-    color: black;
+  background-color: #ffc106;
+  color: black;
 }
 
 nav ul li a:hover {
-    background-color: #ffc106;
+  background-color: #ffc106;
 }
 
 nav ul.hide {
-    display: none;
+  display: none;
 }
 
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
