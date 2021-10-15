@@ -1,0 +1,17 @@
+@media only screen and (min-width: 35em) {
+  nav button {
+    display: none;
+  }
+  nav ul {
+    margin-left: 2%;
+  }
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.8rem 1rem;
+  }
+}
