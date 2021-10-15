@@ -1,4 +1,7 @@
 @media only screen and (min-width: 35em) {
+    nav {
+        border-bottom: 1px solid rgba(255, 255, 255, .25);
+    }
     nav button {
         display: none;
     }
@@ -11,5 +14,6 @@
     }
     nav ul li {
         flex: 1 1 100%;
+        float: left;
     }
 }
