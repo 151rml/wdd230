@@ -1,6 +1,4 @@
 @media only screen and (min-width: 64rem) {
-  nav {
-    display: block;
   }
   nav ul li a {
     padding: 0.6rem 1rem;
