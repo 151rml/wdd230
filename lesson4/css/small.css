@@ -1,104 +1,109 @@
 html {
-  background: url('../../lesson3/images/weather-symbols.png');
-  background-color: rgba(9, 15, 96);
+    background: url('../../lesson3/images/weather-symbols.png');
+    background-color: rgba(9, 15, 96);
 }
+
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 header,
 footer {
-  background-color: rgba(255, 193, 6);
-  padding: 10px;
+    background-color: rgba(255, 193, 6);
+    padding: 10px;
 }
 
 header img {
-  width: 80px;
+    width: 80px;
 }
 
 h1,
 p {
-  margin: 0;
+    margin: 0;
 }
+
 p,
 nav,
 .motto {
-  font-family: 'Arvo', Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Arvo', Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
-  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+    font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
 }
 
 nav button {
-  margin: 0.2rem 2%;
-  background-color: transparent;
-  border: none;
-  font-size: 1.6rem;
-  color: rgba(255, 255, 255);
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255);
 }
+
 nav {
-  background-color: #090f60;
-  text-align: center;
+    background-color: #090f60;
+    text-align: center;
+    max-width: 100%;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 0.5rem;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
 }
 
 nav ul li a {
-  display: block;
-  padding: 0.8rem 2%;
-  color: rgba(255, 255, 255);
-  text-decoration: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: block;
+    padding: 0.8rem 2%;
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 nav ul li.active a {
-  background-color: rgba(255, 193, 6, 0.5);
-  color: rgba(255, 255, 255);
+    background-color: rgba(255, 193, 6, 0.5);
+    color: rgba(255, 255, 255);
 }
 
 nav ul li a:hover {
-  background-color: rgba(255, 193, 6);
-  color: rgba(9, 15, 96);
+    background-color: rgba(255, 193, 6);
+    color: rgba(9, 15, 96);
 }
 
 nav ul.hide {
-  display: none;
+    display: none;
 }
 
 main {
-  background-color: rgba(255, 255, 255);
-  margin: auto;
-  max-width: 900px;
+    background-color: rgba(255, 255, 255);
+    margin: auto;
+    max-width: 900px;
 }
 
 .contentfill {
-  display: block;
-  margin: 10px auto;
-  padding: 10px;
-  border: 2px solid rgba(255, 193, 6);
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid rgba(255, 193, 6);
 }
 
 .clearfix:after {
-  content: '';
-  display: table;
-  clear: both;
+    content: '';
+    display: table;
+    clear: both;
 }
