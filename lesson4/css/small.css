@@ -2,8 +2,26 @@ html {
   background: url('../../lesson3/images/weather-symbols.png');
   background-color: rgba(9, 15, 96);
 }
+* {
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 
-p {
+header,
+footer {
+  background-color: rgba(255, 193, 6);
+}
+
+header img {
+  width: 80px;
+}
+p,
+nav {
   font-family: 'Arvo', Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -11,10 +29,6 @@ body {
   font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
 }
 
-header,
-footer {
-  background-color: rgba(255, 193, 6);
-}
 nav button {
   margin: 0.2rem 2%;
   background-color: transparent;
@@ -56,6 +70,15 @@ nav ul.hide {
 
 main {
   background-color: rgba(255, 255, 255);
+  margin: auto;
+  max-width: 900px;
+}
+
+.contentfill {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid rgba(255, 193, 6);
 }
 
 .clearfix:after {
