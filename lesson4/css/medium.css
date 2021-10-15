@@ -1,6 +1,13 @@
 @media only screen and (min-width: 35em) {
+  nav {
+    background-color: ;
+  }
   nav button {
     display: none;
+  }
+
+  nav ul.hide {
+    display: block;
   }
   nav ul {
     margin-left: 2%;
@@ -12,7 +19,7 @@
   nav ul li a {
     display: block;
     border: none;
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
     padding: 0.8rem 1rem;
   }
 }
