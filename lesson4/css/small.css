@@ -3,6 +3,14 @@ html {
   background-color: rgba(9, 15, 96);
 }
 
+p {
+  font-family: 'Arvo', Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+}
+
 header,
 footer {
   background-color: rgba(255, 193, 6);
@@ -16,7 +24,6 @@ nav button {
 }
 nav {
   background-color: rgba(9, 15, 96);
-  font-family: 'Arvo', Georgia, 'Times New Roman', Times, serif;
 }
 
 nav ul {
