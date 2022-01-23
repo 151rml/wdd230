@@ -2,6 +2,7 @@ html {
     background-color: whitesmoke;
     max-width: 650px;
     margin: auto;
+    padding: 15px;
 }
 
 header,
@@ -9,12 +10,12 @@ footer {
     background-color: #000080;
     color: #fbfef9;
     border-radius: 10px;
-    padding: 1rem;
 }
 
 header {
     display: flex;
     align-items: center;
+    padding: 15px 35px;
 }
 
 header img {
@@ -25,6 +26,7 @@ header img {
 main,
 footer {
     font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
 }
 
 h1 {
